@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Document</title>
+        </head>
+        <body>
+    
+    <script type="text/javascript">   
+        function password() {   
+        var testV = 1;   
+        var pass1 = prompt('5+5=?:','');   
+        while (testV < 3) {   
+        if (!pass1)    
+        history.go(-1);   
+        if (pass1 == "10") {//设置密码
+        alert('口令正确，进行跳转，如果手机无法跳转请使用电脑访问');   
+        window.location.href="zy.html";//添加你要跳转的页面
+        break;   
+        }    
+        testV+=1;   
+        var pass1 =    
+        prompt('密码错误','');   
+        }   
+        if (pass1!="password" & testV ==3)    
+        history.go(-1);   
+        return " ";   
+        }    
+        document.write(password());   
+        </script>
+        
+          </body>
+        </html>
+         
+        
+<script type="text/javascript">   
+    function password() {   
+    var testV = 1;   
+    var pass1 = prompt('5+5=?:','');   
+    while (testV < 3) {   
+    if (!pass1)    
+    history.go(-1);   
+    if (pass1 == "10") {//设置密码
+    alert('口令正确，进行跳转');   
+    window.location.href="zy.html";//添加你要跳转的页面
+    break;   
+    }    
+    testV+=1;   
+    var pass1 =    
+    prompt('密码错误','');   
+    }   
+    if (pass1!="password" & testV ==3)    
+    history.go(-1);   
+    return " ";   
+    }    
+    document.write(password());   
+    </script>
+    
+      </body>
+    </html>
+     
+    
